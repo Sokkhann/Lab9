@@ -1,0 +1,47 @@
+:root {
+    --bg-color: rgb(25, 25, 25);
+    --btn-color: rgb(44, 43, 43);
+    --sm-color: rgb(46, 235, 46);
+    --eq-color: green;
+}
+
+button {
+    font-size: 3rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 6rem;
+    margin: 0.6rem;
+    border: none;
+}
+
+#row {
+    justify-content: center;
+}
+
+#container {
+    background-color: var(--bg-color);
+}
+
+#bg-btn {
+    color: white;
+    background-color: var(--btn-color);
+}
+
+#sym-btn {
+    background-color: var(--btn-color);
+    color: var(--sm-color);
+}
+
+#equal-btn {
+    color: white;
+    background-color: var(--eq-color);
+}
+
+#clr-btn {
+    color: red;
+    background-color: var(--btn-color);
+}
+
+#calc {
+    font-size: 3rem;
+}
